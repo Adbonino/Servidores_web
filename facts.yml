@@ -1,6 +1,6 @@
 ---
 - name: Cisco banner
-  hosts: Zona_Norte
+  hosts: all
   remote_user: ansible
 
   tasks:
