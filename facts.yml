@@ -1,0 +1,8 @@
+---
+- name: Cisco banner
+  hosts: all
+  remote_user: ansible
+
+  tasks:
+    - name: show facts
+      debug: msg="{{  ansible_facts }}"
