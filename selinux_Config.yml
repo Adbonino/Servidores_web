@@ -2,6 +2,7 @@
 - name: Cisco banner
   hosts: all
   become: yes
+  become_method: sudo
 
   tasks:
     - name: Put SELinux in permissive mode, logging actions that would be blocked.
