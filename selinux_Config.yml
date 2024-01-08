@@ -2,6 +2,7 @@
 - name: Cisco banner
   hosts: all
   remote_user: ansible
+  become: true
 
   tasks:
     - name: Put SELinux in permissive mode, logging actions that would be blocked.
