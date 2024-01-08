@@ -1,7 +1,6 @@
 ---
 - name: Cisco banner
   hosts: all
-  remote_user: ansible
   become: true
 
   tasks:
